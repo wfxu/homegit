@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> youe</title>
+	<meta charset="utf-8" />
+	<style>
+		body{background-image:url(../imag/001.jpg);}
+		form{border:1px dotted #999;mardin:0px;padding:1px 6px 1px 6px;font:14px Arial;}
+		input{color:#00008B;}
+		input.txt{background-color:#ADD8E6;border:none;border-bottom:1px solid #266980;color:#1D5061;}
+		input.btn{color:#00008B; background-color:#ADD8E6;border:1px outset #00008b;padding:1px 2px 1px 2px;}
+		select{width:100px;color:#00008B;background-color:#ADD8E6;border:1px solid #00008B;}
+		textarea{width:200px;height:40px;color:#00008B;background-color:#ADD8E6;border:1px inset #00008B;}
+	</style>
+</head>
+<body>
+<h1>用户注册：</h1>
+<div class="contain">
+	<form name="myform" action="" method="post">
+		<P> 用户名：<input class="txt" type="text" name="name" size=15/> </p>
+		<p> 密&nbsp;&nbsp;码：<input class="txt" type="password" name="passwd" size="15" /> </p>
+		<p> 性&nbsp;别: <input type="radio" value="male" name="sex" />男
+								<input type="radio" value="femmale" name="sex" />女
+		</p>
+		<p> 所在地:<select name="addr">
+						<option value="1">安徽</option>
+						<option value="2">江苏</option>
+						<option value="3">浙江</option>
+					</select>
+		</p>
+		<p> 签&nbsp;名: <br/>
+			<textarea name="sign" clos="20" rows="4"></textarea>
+		</p>
+		<p><input class="btn" type="submit" name="submit" value="注册" />
+		   <input class="btn" type="reset" name="reset" value="重置" />
+		</p>
+	</form>
+</div>
+</body>
+</html>

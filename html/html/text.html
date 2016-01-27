@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- a document for nochange.js -->
+<html lang="en">
+	<head>
+		<title> focus event </title>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="roots.js">
+		</script>
+		<style type="text/css">
+			td, th, table {border: thin solid black}
+		</style>
+	</head>
+	<body>
+		<form action="">
+			<h3> coffe order form </h3>
+			<table>
+				<tr>
+					<th> product name </th>
+					<th> prict </th>
+					<th> quantity </th>
+				</tr>
+				<tr>
+					<th> tom </th>
+					<td> $2.9 </td>
+					<td> <input type="text" id="tom" size="2" /> </td>
+				</tr>
+				<tr>
+					<th> hallen </th>
+					<td> $2.1 </td>
+					<td> <input type="text" id="hallen" size="2" /> </td>
+				</tr>
+				<tr>
+					<th> jam </th>
+					<td> $3.2 </td>
+					<td> <input type="text" id="jam" size="2" /> </td>
+				</tr>
+			</table>
+			<p>
+				<input type="button" value="total cost" onclick="computercost();" />
+				<input type="text" size="5" id="cost" onfocus="this.blur();" />
+			</p>
+			<p>
+				<input type="submit" value="submit order" />
+				<input type="reset" value="clear order form" />
+			</p>
+		</form>
+		<canvas id="myca" height="200" width="400">
+		</canvas>
+	</body>
+</html>

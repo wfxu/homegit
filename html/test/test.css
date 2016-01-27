@@ -1,0 +1,34 @@
+.h1
+{
+	background: green;
+	cursor: crosshair;
+	opacity: 0.5;
+}
+.footer
+{
+	background-color: gray;
+	margin-top:470px;
+	text-align:center;
+}
+img
+{
+	opacity: 1.9;
+}
+.ol
+{
+	display:inline;
+	float:left;
+	width:30%;
+}
+.one-form
+{
+	float:left;
+	display:inline;
+	width:70%;
+	height:400px;
+}
+
+
+/*
+HTML+CSS1、盒子模型，块级元素和行内元素特性与区别。2、行内块的使用，兼容性解决。3、清除浮动的方式以及各自的优劣。4、文档流的概念、定位的理解以及z-index计算规则&浏览器差异性。5、CSS选择器以及优先级计算。6、常用的CSS hack。7、遇到的兼容性问题与解决方法。8、垂直水平居中的实现方式。9、常用布局的实现（两列布局、三列适应布局，两列等高适应布局等）。Javascript1、犀牛书封面的犀牛属于神马品种？（蛋逼活跃气氛用。。。）2、常用的浏览器内核。3、常用的DOM操作，新建、添加、删除、移动、查找等。4、String于Array常用方法。5、设备与平台监测。6、DOM的默认事件、事件模型、事件委托、阻止默认事件、冒泡事件的方式等。7、jQuery的bind、live、on、delegate的区别（考察点与上一条重叠，切入点不同）。8、JS变量提升、匿名函数、原型继承、作用域、闭包机制等。9、对HTTP协议的理解。10、Ajax的常用操作，JS跨域的实现原理。
+*/
