@@ -1,13 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title> 军旅生活 </title>
-	</head>
-	<body>
-		<p> 
-			<h1> 欢饮来到军旅世界！<a href="http://www.baidu.com" target="_parent" > 点这里打开“度娘” </a> 
-			</h1>
-		</p> 
-	</body>
+<html>
+ <head>
+ 	<meta charset="utf-8" />
+  <title> new document </title>  
+  <meta http-equiv="Content-Type" content="text/html; charset=gbk"/>   
+  <script type="text/javascript">  
+    function openWindow(){
+    var op=confirm("是否打开新窗开");// 新窗口打开时弹出确认框，是否打开
+    if(op==true){     
+         window.open("http://www.imooc.com/",'_blank','width=400px,height=500px')
+	}
+    }
+    
+    
+  </script> 
+ </head> 
+ <body> 
+	  <input type="button" value="新窗口打开网站" onclick="openWindow()" /> 
+ </body>
 </html>
